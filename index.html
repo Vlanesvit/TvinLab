@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="lib/fancybox/fancybox.css">
+	<link rel="stylesheet" href="lib/aos/aos.css">
+	<link rel="stylesheet" href="css/rs-style.css" />
+
+	<title>Главная | Твинлаб</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<link rel="stylesheet" href="css/rs-header.css">
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header">
+				<div class="rs-header__container">
+					<div class="rs-header__wrapper">
+						<div class="rs-header__logo">
+							<a href="#">
+								<img src="img/header/logo.svg" alt="">
+							</a>
+						</div>
+
+						<div class="rs-header__menu menu">
+							<button type="button" class="menu__icon icon-menu">
+								<span class="menu__icon_burger">
+									<svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1.07703 7.46164H12.9232" stroke="currentColor" stroke-width="1.85"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.07703 3.1926H12.9232" stroke="currentColor" stroke-width="1.85"
+											stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.07703 11.7307H12.9232" stroke="currentColor" stroke-width="1.85"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</span>
+								<span class="menu__icon_text">
+									<span>Меню</span>
+									<span>Закрыть</span>
+								</span>
+							</button>
+
+							<div class="menu__block">
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu-item current_menu_item">
+											<a href="#">Главная</a>
+										</li>
+
+										<li class="menu-item menu__dropdown">
+											<a href="#">Каталог</a>
+
+											<ul class="menu__dropdown_list">
+												<li class="menu-item menu__dropdown">
+													<a href="#">Молекулярно-генетические лаборатории</a>
+
+													<ul class="menu__dropdown_list">
+														<li class="menu-item menu__dropdown">
+															<a href="#">Амплификаторы</a>
+
+															<ul class="menu__dropdown_list">
+																<li class="menu-item">
+																	<a href="#">Амплификатор ДТклассик</a>
+																</li>
+
+																<li class="menu-item">
+																	<a href="#">Амплификатор детектирующий ДТлайт</a>
+																</li>
+
+																<li class="menu-item">
+																	<a href="#">Амплификатор детектирующий ДТпрайм</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Лаборатории ветеринарного профиля</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Лаборатории микробиологического анализа</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Аналитические лаборатории</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Общелабораторное оборудование</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Расходные материалы</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Реактивы</a>
+												</li>
+											</ul>
+										</li>
+
+										<li class="menu-item menu__dropdown">
+											<a href="#">Услуги</a>
+
+											<ul class="menu__dropdown_list">
+												<li class="menu-item">
+													<a href="#">Проектирование лабораторий</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Сервисное обслуживание</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Биоинформатическая обработка данных</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Исследования</a>
+												</li>
+											</ul>
+										</li>
+
+										<li class="menu-item">
+											<a href="#">Решения «под ключ»</a>
+										</li>
+
+										<li class="menu-item">
+											<a href="#">Контакты</a>
+										</li>
+									</ul>
+								</nav>
+
+								<div class="menu__contact">
+									<h6>Свяжитесь с нами</h6>
+									<div class="menu__contact_icon">
+										<img src="img/header/contact_icon.svg" alt="">
+									</div>
+									<ul>
+										<li><a href="tel:88002502423">8 800 250-24-23</a></li>
+										<li><a href="mailto:info@tvinlab.ru">info@tvinlab.ru</a></li>
+									</ul>
+								</div>
+
+								<div class="menu__action">
+									<ul>
+										<li>
+											<a href="#">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														d="M10.9993 2.5C9.64387 2.50012 8.30814 2.82436 7.10353 3.44569C5.89893 4.06702 4.86037 4.96742 4.07451 6.07175C3.28866 7.17609 2.77829 8.45235 2.58599 9.79404C2.39368 11.1357 2.52503 12.504 2.96906 13.7846C3.41308 15.0652 4.15692 16.2211 5.13851 17.1557C6.1201 18.0904 7.31098 18.7768 8.61179 19.1576C9.9126 19.5384 11.2856 19.6026 12.6163 19.3449C13.947 19.0872 15.1967 18.515 16.2613 17.676L19.9133 21.328C20.1019 21.5102 20.3545 21.611 20.6167 21.6087C20.8789 21.6064 21.1297 21.5012 21.3151 21.3158C21.5005 21.1304 21.6057 20.8796 21.608 20.6174C21.6102 20.3552 21.5094 20.1026 21.3273 19.914L17.6753 16.262C18.6633 15.0086 19.2784 13.5024 19.4504 11.9157C19.6223 10.3291 19.3441 8.72602 18.6475 7.29009C17.9509 5.85417 16.8642 4.64336 15.5116 3.79623C14.159 2.94911 12.5952 2.49989 10.9993 2.5ZM4.49928 11C4.49928 9.27609 5.1841 7.62279 6.40308 6.40381C7.62207 5.18482 9.27537 4.5 10.9993 4.5C12.7232 4.5 14.3765 5.18482 15.5955 6.40381C16.8145 7.62279 17.4993 9.27609 17.4993 11C17.4993 12.7239 16.8145 14.3772 15.5955 15.5962C14.3765 16.8152 12.7232 17.5 10.9993 17.5C9.27537 17.5 7.62207 16.8152 6.40308 15.5962C5.1841 14.3772 4.49928 12.7239 4.49928 11Z"
+														fill="currentColor" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														d="M12.5 13.5C14.896 13.5 17.075 14.194 18.678 15.172C19.478 15.66 20.162 16.236 20.656 16.862C21.142 17.477 21.5 18.213 21.5 19C21.5 19.845 21.089 20.511 20.497 20.986C19.937 21.436 19.198 21.734 18.413 21.942C16.835 22.359 14.729 22.5 12.5 22.5C10.271 22.5 8.165 22.36 6.587 21.942C5.802 21.734 5.063 21.436 4.503 20.986C3.91 20.51 3.5 19.845 3.5 19C3.5 18.213 3.858 17.477 4.344 16.861C4.838 16.236 5.521 15.661 6.322 15.171C7.925 14.195 10.105 13.5 12.5 13.5ZM12.5 15.5C10.477 15.5 8.657 16.09 7.364 16.879C6.717 17.273 6.229 17.701 5.914 18.101C5.59 18.511 5.5 18.821 5.5 19C5.5 19.122 5.537 19.251 5.755 19.426C6.004 19.626 6.437 19.833 7.099 20.008C8.417 20.358 10.311 20.5 12.5 20.5C14.69 20.5 16.583 20.357 17.9 20.008C18.563 19.833 18.996 19.626 19.245 19.426C19.463 19.251 19.5 19.122 19.5 19C19.5 18.82 19.41 18.511 19.087 18.101C18.771 17.701 18.283 17.273 17.636 16.879C16.343 16.089 14.523 15.5 12.5 15.5ZM12.5 2.5C13.8261 2.5 15.0979 3.02678 16.0355 3.96447C16.9732 4.90215 17.5 6.17392 17.5 7.5C17.5 8.82608 16.9732 10.0979 16.0355 11.0355C15.0979 11.9732 13.8261 12.5 12.5 12.5C11.1739 12.5 9.90215 11.9732 8.96447 11.0355C8.02678 10.0979 7.5 8.82608 7.5 7.5C7.5 6.17392 8.02678 4.90215 8.96447 3.96447C9.90215 3.02678 11.1739 2.5 12.5 2.5ZM12.5 4.5C12.106 4.5 11.7159 4.5776 11.3519 4.72836C10.988 4.87913 10.6573 5.1001 10.3787 5.37868C10.1001 5.65726 9.87913 5.98797 9.72836 6.35195C9.5776 6.71593 9.5 7.10603 9.5 7.5C9.5 7.89397 9.5776 8.28407 9.72836 8.64805C9.87913 9.01203 10.1001 9.34274 10.3787 9.62132C10.6573 9.8999 10.988 10.1209 11.3519 10.2716C11.7159 10.4224 12.106 10.5 12.5 10.5C13.2956 10.5 14.0587 10.1839 14.6213 9.62132C15.1839 9.05871 15.5 8.29565 15.5 7.5C15.5 6.70435 15.1839 5.94129 14.6213 5.37868C14.0587 4.81607 13.2956 4.5 12.5 4.5Z"
+														fill="currentColor" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M9.50025 20.5002C9.76547 20.5002 10.0198 20.6055 10.2074 20.7931C10.3949 20.9806 10.5003 21.235 10.5003 21.5002C10.5003 21.7654 10.3949 22.0198 10.2074 22.2073C10.0198 22.3948 9.76547 22.5002 9.50025 22.5002C9.23504 22.5002 8.98068 22.3948 8.79315 22.2073C8.60561 22.0198 8.50025 21.7654 8.50025 21.5002C8.50025 21.235 8.60561 20.9806 8.79315 20.7931C8.98068 20.6055 9.23504 20.5002 9.50025 20.5002ZM16.5003 20.5002C16.7655 20.5002 17.0198 20.6055 17.2074 20.7931C17.3949 20.9806 17.5003 21.235 17.5003 21.5002C17.5003 21.7654 17.3949 22.0198 17.2074 22.2073C17.0198 22.3948 16.7655 22.5002 16.5003 22.5002C16.235 22.5002 15.9807 22.3948 15.7931 22.2073C15.6056 22.0198 15.5003 21.7654 15.5003 21.5002C15.5003 21.235 15.6056 20.9806 15.7931 20.7931C15.9807 20.6055 16.235 20.5002 16.5003 20.5002ZM3.99525 3.13119L4.10025 3.20119L5.80825 4.48119C6.09892 4.69928 6.32467 4.99245 6.46125 5.32919L6.52125 5.50019H19.3673C19.6384 5.50012 19.9067 5.55517 20.1558 5.662C20.405 5.76882 20.6298 5.92519 20.8167 6.1216C21.0036 6.31801 21.1486 6.55037 21.2429 6.80455C21.3372 7.05872 21.3788 7.32942 21.3653 7.60019L21.3523 7.74819L20.8953 11.4032C20.7581 12.5031 20.2593 13.5263 19.4774 14.3119C18.6954 15.0975 17.6745 15.601 16.5753 15.7432L16.3493 15.7662L9.03625 16.3762L9.29625 17.5002H18.0003C18.2551 17.5005 18.5003 17.5981 18.6856 17.773C18.871 17.948 18.9825 18.1871 18.9974 18.4416C19.0124 18.696 18.9296 18.9466 18.766 19.142C18.6024 19.3375 18.3703 19.4631 18.1173 19.4932L18.0003 19.5002H9.29625C8.87186 19.5003 8.45844 19.3653 8.1158 19.1149C7.77316 18.8645 7.51906 18.5116 7.39025 18.1072L7.34725 17.9502L4.60725 6.08019L2.90025 4.80019C2.70515 4.65396 2.57019 4.44148 2.52077 4.20272C2.47134 3.96396 2.51084 3.71537 2.63185 3.5037C2.75286 3.29202 2.94704 3.13185 3.17786 3.05331C3.40868 2.97476 3.66025 2.98326 3.88525 3.07719L3.99525 3.13119ZM19.3673 7.50019H6.98725L8.58225 14.4062L16.1823 13.7732C16.8682 13.7161 17.5136 13.4249 18.0103 12.9484C18.507 12.4719 18.8248 11.8391 18.9103 11.1562L19.3673 7.50019Z"
+														fill="currentColor" />
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="menu__btn">
+									<a href="#" class="rs-btn _btn-primary">Получить консультацию</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+
+			<link rel="stylesheet" href="css/rs-banner.css">
+			<section class="rs-banner">
+				<div class="rs-banner__block">
+					<div class="rs-banner__bg">
+						<img src="img/rs-banner/rs-banner_bg.jpg" alt="">
+					</div>
+					<div class="rs-banner__content">
+						<div class="rs-banner__container">
+							<div class="rs-banner__body" data-aos="fade-up" data-aos-delay="100">
+								<h1>Организация научных лабораторий любой сложности</h1>
+								<a href="#" class="rs-btn _btn-primary">Получить консультацию</a>
+							</div>
+
+							<div class="rs-banner__wrapper" data-aos="fade-up" data-aos-delay="200">
+								<div class="rs-banner__title">
+									<h4>О нас</h4>
+								</div>
+								<div class="rs-banner__desc">
+									<div class="rs-banner__row">
+										<div class="rs-banner__text">
+											<p>Основной фокус компании Твинлаб направлен на организацию
+												научно-исследовательский, диагностических и производственных лабораторий
+												биологического профиля.
+											</p>
+											<p>Компания Твинлаб сотрудничает с ведущими российскими и мировыми
+												производителями лабораторного оборудования и реагентов. Мы подберём
+												для вас самое современное и надёжное оборудование, а также
+												высокачественные
+												реагенты, которые обеспечат высокую точность и надёжность ваших
+												исследований.
+											</p>
+										</div>
+										<div class="rs-banner__text">
+											<p>Наши специалисты обладают богатым опытом в проектировании, подборе
+												оборудования и реагентов для организации лабораторий любой сложности
+												«под ключ». Помогут вам выбрать оптимальные методики и технологии
+												для решения ваших исследовательских задач. Независимо от того,
+												работаете ли вы в области молекулярно-генетических и иммуноферментных
+												исследований, клеточной биологии, микробиологии или аналитической химии,
+												мы предложим вам самые современные и эффективные методы исследований.
+											</p>
+										</div>
+									</div>
+									<blockquote class="blockquote">
+										<div class="blockquote__img">
+											<img src="img/rs-banner/rs-banner_icon.svg" alt="">
+										</div>
+										<div class="blockquote__text">
+											<p>Компания Твинлаб сотрудничает с ведущими российскими и мировыми
+												производителями лабораторного оборудования и реагентов. Мы подберём
+												для вас самое современное и надёжное оборудование,
+												а также высокачественные реагенты, которые обеспечат высокую точность
+												и надёжность ваших исследований.
+											</p>
+										</div>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-catalog-nav.css">
+			<section class="rs-catalog-nav">
+				<div class="rs-catalog-nav__bg">
+					<img src="img/catalog-nav/catalog-nav_bg.svg" alt="">
+				</div>
+
+				<div class="rs-catalog-nav__container">
+					<h2 data-aos="fade-up" data-aos-delay="100">Каталог</h2>
+					<div class="rs-catalog-nav__wrapper">
+						<div class="rs-catalog-nav__list">
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="100">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-1.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Молекулярно-генетические лаборатории</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="200">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-2.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Лаборатории ветеринарного профиля</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="100">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-3.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Лаборатории клеточной биологии</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="200">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-4.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Лаборатории микробиологического анализа</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="200">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-5.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Аналитические лаборатории</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="100">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-6.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Общелабораторное оборудование</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="200">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-7.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Расходные материалы</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-catalog-nav__item" data-aos="fade-up" data-aos-delay="100">
+								<a href="#" class="rs-catalog-nav__link">
+									<div class="rs-catalog-nav__img">
+										<img src="img/catalog-nav/catalog-nav_icon-8.svg" alt="">
+									</div>
+									<div class="rs-catalog-nav__desc">
+										<h4>Реактивы</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-parallax.css">
+			<script src="js/rs-parallax.js" defer></script>
+			<section class="rs-parallax">
+				<div class="rs-parallax__bg">
+					<img src="img/parallax/parallax_img-1.jpg" alt="">
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-services.css">
+			<section class="rs-services">
+				<div class="rs-services__bg">
+					<img src="img/services/services_bg.jpg" alt="">
+				</div>
+				<div class="rs-services__container">
+					<div class="rs-services__features">
+						<h2 data-aos="fade-up" data-aos-delay="100">Мы предлагаем комплексные решения, индивидуальный
+							подход и высокое качество услуг</h2>
+
+						<div class="rs-services__features_wrapper">
+							<div class="rs-services__features_list" data-aos="fade-up" data-aos-delay="100">
+								<div class="rs-services__features_item">
+									<div class="rs-services__features_img">
+										<img src="img/services/services-features_img-1.svg" alt="">
+									</div>
+									<div class="rs-services__features_desc">
+										<h4>Комплексный подход к созданию лабораторий «под ключ»</h4>
+									</div>
+								</div>
+
+								<div class="rs-services__features_item">
+									<div class="rs-services__features_img">
+										<img src="img/services/services-features_img-2.svg" alt="">
+									</div>
+									<div class="rs-services__features_desc">
+										<h4>Квалифицированные специалисты с большим опытом работы</h4>
+									</div>
+								</div>
+
+								<div class="rs-services__features_item">
+									<div class="rs-services__features_img">
+										<img src="img/services/services-features_img-3.svg" alt="">
+									</div>
+									<div class="rs-services__features_desc">
+										<h4>Сервисная поддержка</h4>
+									</div>
+								</div>
+
+								<div class="rs-services__features_item">
+									<div class="rs-services__features_img">
+										<img src="img/services/services-features_img-4.svg" alt="">
+									</div>
+									<div class="rs-services__features_desc">
+										<h4>Широкий спектр дополнительных услуг</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-services__key">
+						<h2 data-aos="fade-up" data-aos-delay="100">Организация лабораторий любой сложности любой
+							сложности «под ключ»</h2>
+
+						<div class="rs-services__key_wrapper" data-aos="fade-up" data-aos-delay="100">
+							<div class="rs-services__key_list">
+								<div class="rs-services__key_item">
+									<a href="#" class="rs-services__key_link">
+										<div class="rs-services__key_bg">
+											<img src="img/services/services-key_img-1.jpg" alt="">
+										</div>
+										<div class="rs-services__key_desc">
+											<h4>Проектирование лабораторий</h4>
+											<p>Наши эксперты помогут вам создать эффективное и функциональное
+												пространство,
+												соответствующее всем стандартам и требованиям</p>
+										</div>
+									</a>
+								</div>
+
+								<div class="rs-services__key_item">
+									<a href="#" class="rs-services__key_link">
+										<div class="rs-services__key_bg">
+											<img src="img/services/services-key_img-2.jpg" alt="">
+										</div>
+										<div class="rs-services__key_desc">
+											<h4>Сервисное обслуживание</h4>
+											<p>Регулярное техническое обслуживание и оперативный ремонт оборудования
+												для бесперебойной работы лаборатории</p>
+										</div>
+									</a>
+								</div>
+
+								<div class="rs-services__key_item">
+									<a href="#" class="rs-services__key_link">
+										<div class="rs-services__key_bg">
+											<img src="img/services/services-key_img-3.jpg" alt="">
+										</div>
+										<div class="rs-services__key_desc">
+											<h4>Биоинформатическая обработка данных</h4>
+											<p>Поможем проанализировать и интерпретировать данные, полученные в ходе
+												исследований, с использованием современных биоинформатических методов
+											</p>
+										</div>
+									</a>
+								</div>
+
+								<div class="rs-services__key_item">
+									<a href="#" class="rs-services__key_link">
+										<div class="rs-services__key_bg">
+											<img src="img/services/services-key_img-4.jpg" alt="">
+										</div>
+										<div class="rs-services__key_desc">
+											<h4>Исследования</h4>
+											<p>Предоставляем услуги по выполнению научных исследований для частных
+												и юридических лиц</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="rs-parallax">
+				<div class="rs-parallax__bg">
+					<img src="img/parallax/parallax_img-2.jpg" alt="">
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-partners.css">
+			<section class="rs-partners" data-aos="fade-up" data-aos-delay="100">
+				<div class="rs-partners__bg">
+					<img src="img/logo/logo_bg.svg" alt="">
+				</div>
+				<div class="rs-partners__container">
+					<div class="rs-partners__title">
+						<h2>Партнёры</h2>
+
+						<div class="rs-partners__action swiper-action">
+							<div class="rs-partners__button-prev swiper-button-prev">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M9.793 5.63634L4.136 11.2933C3.94853 11.4809 3.84321 11.7352 3.84321 12.0003C3.84321 12.2655 3.94853 12.5198 4.136 12.7073L9.793 18.3643C9.9816 18.5465 10.2342 18.6473 10.4964 18.645C10.7586 18.6427 11.0094 18.5376 11.1948 18.3522C11.3802 18.1668 11.4854 17.9159 11.4877 17.6537C11.49 17.3915 11.3892 17.1389 11.207 16.9503L7.257 13.0003H20.5C20.7652 13.0003 21.0196 12.895 21.2071 12.7074C21.3946 12.5199 21.5 12.2656 21.5 12.0003C21.5 11.7351 21.3946 11.4808 21.2071 11.2932C21.0196 11.1057 20.7652 11.0003 20.5 11.0003H7.257L11.207 7.05034C11.3025 6.9581 11.3787 6.84775 11.4311 6.72575C11.4835 6.60374 11.5111 6.47252 11.5123 6.33974C11.5134 6.20696 11.4881 6.07529 11.4378 5.95239C11.3875 5.82949 11.3133 5.71784 11.2194 5.62395C11.1255 5.53006 11.0139 5.4558 10.891 5.40552C10.7681 5.35524 10.6364 5.32994 10.5036 5.33109C10.3708 5.33225 10.2396 5.35983 10.1176 5.41224C9.99559 5.46465 9.88525 5.54083 9.793 5.63634Z"
+										fill="currentColor" />
+								</svg>
+							</div>
+							<div class="rs-partners__button-next swiper-button-next">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.207 5.63634L20.864 11.2933C21.0515 11.4809 21.1568 11.7352 21.1568 12.0003C21.1568 12.2655 21.0515 12.5198 20.864 12.7073L15.207 18.3643C15.0184 18.5465 14.7658 18.6473 14.5036 18.645C14.2414 18.6427 13.9906 18.5376 13.8052 18.3522C13.6198 18.1668 13.5146 17.9159 13.5123 17.6537C13.51 17.3915 13.6108 17.1389 13.793 16.9503L17.743 13.0003H4.5C4.23478 13.0003 3.98043 12.895 3.79289 12.7074C3.60536 12.5199 3.5 12.2656 3.5 12.0003C3.5 11.7351 3.60536 11.4808 3.79289 11.2932C3.98043 11.1057 4.23478 11.0003 4.5 11.0003H17.743L13.793 7.05034C13.6975 6.9581 13.6213 6.84775 13.5689 6.72575C13.5165 6.60374 13.4889 6.47252 13.4877 6.33974C13.4866 6.20696 13.5119 6.07529 13.5622 5.95239C13.6125 5.82949 13.6867 5.71784 13.7806 5.62395C13.8745 5.53006 13.9861 5.4558 14.109 5.40552C14.2319 5.35524 14.3636 5.32994 14.4964 5.33109C14.6292 5.33225 14.7604 5.35983 14.8824 5.41224C15.0044 5.46465 15.1148 5.54083 15.207 5.63634Z"
+										fill="currentColor" />
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-partners__slider swiper">
+						<div class="rs-partners__swiper swiper-wrapper">
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_1.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_2.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_3.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_4.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_5.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_6.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_1.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_2.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_3.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_4.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_5.jpg" alt="">
+								</div>
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<div class="rs-partners__img">
+									<img src="img/logo/logo_6.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-contact.css">
+			<section class="rs-contact" data-aos="fade-up" data-aos-delay="100">
+				<div class="rs-contact__container">
+					<div class="rs-contact__wrapper">
+						<div class="rs-contact__logo">
+							<a href="#">
+								<img src="img/header/logo.svg" alt="">
+							</a>
+						</div>
+						<div class="rs-contact__list">
+							<ul>
+								<li class="rs-contact__item">
+									<div class="rs-contact__img">
+										<img src="img/contact/contact_icon-1.svg" alt="">
+									</div>
+									<div class="rs-contact__desc">
+										<span>телефон</span>
+										<a href="tel:88002502423">8 800 250-24-23</a>
+									</div>
+								</li>
+								<li class="rs-contact__item">
+									<div class="rs-contact__img">
+										<img src="img/contact/contact_icon-2.svg" alt="">
+									</div>
+									<div class="rs-contact__desc">
+										<span>Email</span>
+										<a href="mailto:info@tvinlab.ru">info@tvinlab.ru</a>
+									</div>
+								</li>
+								<li class="rs-contact__item">
+									<div class="rs-contact__img">
+										<img src="img/contact/contact_icon-3.svg" alt="">
+									</div>
+									<div class="rs-contact__desc">
+										394033, г. Воронеж, ул. Остужева, дом. 66а, <br> СТЦ «Гильдия»
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<link rel="stylesheet" href="css/rs-footer.css">
+		<footer>
+			<div class="rs-footer" data-aos="fade-up" data-aos-delay="100">
+				<div class="rs-footer__container">
+					<div class="rs-footer__wrapper">
+						<div class="rs-footer__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu-item"><a href="#">Главная</a></li>
+									<li class="menu-item"><a href="#">Каталог</a></li>
+									<li class="menu-item"><a href="#">Услуги</a></li>
+									<li class="menu-item"><a href="#">Решения «под ключ»</a></li>
+									<li class="menu-item"><a href="#">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="rs-footer__info">
+							<div class="rs-footer__copyright">
+								© ООО «ТВИНЛАБ» 2025. Все права защищены.
+							</div>
+							<div class="rs-footer__dev">
+								<a href="#">Разработано в Россайт</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="lib/aos/aos.js"></script>
+	<script>AOS.init({ duration: 500, easing: "ease-out-quart", once: true });</script>
+	<script src="lib/fancybox/fancybox.umd.js"></script>
+	<script src="lib/swiper/swiper-bundle.min.js"></script>
+	<script src="lib/inputmask/inputmask.min.js"></script>
+	<script src="js/rs-sliders-init.js"></script>
+	<script src="js/rs-script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+.rs-banner {
+  padding: 2.4rem;
+}
+@media (max-width: 991.98px) {
+  .rs-banner {
+    padding: 0.2rem;
+  }
+}
+.rs-banner__block {
+  padding-top: 16.9rem;
+  padding-bottom: 6.4rem;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 991.98px) {
+  .rs-banner__block {
+    -webkit-mask-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1872' height='1136' viewBox='0 0 1872 1136' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1872 15V1111C1872 1124.81 1860.81 1136 1847 1136H25C11.1929 1136 0 1124.81 0 1111V119.345C0 111.061 6.7157 104.345 15 104.345H1244.59C1250.66 104.345 1256.51 102.14 1261.07 98.142L1365.93 6.2028C1370.49 2.20448 1376.34 0 1382.41 0H1857C1865.28 0 1872 6.71572 1872 15Z' fill='white'/%3e%3c/svg%3e ");
+            mask-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1872' height='1136' viewBox='0 0 1872 1136' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1872 15V1111C1872 1124.81 1860.81 1136 1847 1136H25C11.1929 1136 0 1124.81 0 1111V119.345C0 111.061 6.7157 104.345 15 104.345H1244.59C1250.66 104.345 1256.51 102.14 1261.07 98.142L1365.93 6.2028C1370.49 2.20448 1376.34 0 1382.41 0H1857C1865.28 0 1872 6.71572 1872 15Z' fill='white'/%3e%3c/svg%3e ");
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-position: top right;
+            mask-position: top right;
+    -webkit-mask-size: cover;
+            mask-size: cover;
+  }
+}
+@media (max-width: 991.98px) {
+  .rs-banner__block {
+    border-radius: 2rem;
+    padding: 8rem 0 5rem;
+  }
+}
+.rs-banner__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.rs-banner__bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 1439.98px) {
+  .rs-banner__container {
+    max-width: 173rem;
+  }
+}
+.rs-banner__body {
+  max-width: 83.4rem;
+  margin-bottom: 8.8rem;
+}
+@media (max-width: 991.98px) {
+  .rs-banner__body {
+    margin-bottom: 3rem;
+  }
+}
+.rs-banner__body .rs-btn {
+  margin-top: 3.1rem;
+}
+.rs-banner__wrapper {
+  padding: 5.4rem 8.9rem 3.6rem;
+  background: #fff;
+  border-radius: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+}
+@media (max-width: 991.98px) {
+  .rs-banner__wrapper {
+    padding: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.rs-banner__desc {
+  width: 100%;
+  max-width: 120.6rem;
+}
+.rs-banner__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.1rem;
+}
+@media (max-width: 991.98px) {
+  .rs-banner__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.rs-banner__text {
+  width: 100%;
+  max-width: 55.8rem;
+}
+.rs-banner__text p {
+  margin: 1.1rem 0;
+}
+.rs-banner__text > *:first-child {
+  margin-top: 0;
+}
+.rs-banner__text > *:last-child {
+  margin-bottom: 0;
+}
+
+.blockquote {
+  background: #f3f7ff;
+  padding: 2.4rem 3.2rem;
+  margin-top: 5.1rem;
+  border-radius: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.4rem;
+}
+@media (max-width: 991.98px) {
+  .blockquote {
+    padding: 2rem;
+    gap: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.blockquote__img {
+  max-width: 6.6rem;
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.blockquote__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.blockquote__text p {
+  line-height: 140%;
+}

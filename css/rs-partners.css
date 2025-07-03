@@ -1,0 +1,119 @@
+.rs-partners {
+  background: #fff;
+  border-radius: 10rem 10rem 0 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding: 12rem 0 27.4rem;
+  margin-bottom: -15rem;
+}
+@media (max-width: 991.98px) {
+  .rs-partners {
+    border-radius: 2rem 2rem 0 0;
+    padding: 5rem 0 10rem;
+    margin-bottom: -5rem;
+  }
+}
+.rs-partners__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.rs-partners__bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rs-partners__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.rs-partners__slider {
+  margin-top: 3.6rem;
+}
+.rs-partners__slide:nth-child(even) {
+  padding-top: 7rem;
+}
+.rs-partners__img {
+  width: 22.8rem;
+  height: 22.8rem;
+  padding: 5rem;
+  background-color: #fff;
+  border-radius: 100%;
+}
+@media (max-width: 991.98px) {
+  .rs-partners__img {
+    width: 16rem;
+    height: 16rem;
+    padding: 3rem;
+  }
+}
+.rs-partners__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.rs-partners .swiper-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+}
+.rs-partners .swiper-button-next,
+.rs-partners .swiper-button-prev {
+  position: relative;
+  top: 0%;
+  width: 5.4rem;
+  height: 5.4rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #25187f;
+  background-color: #b2ede7;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.rs-partners .swiper-button-next svg,
+.rs-partners .swiper-button-prev svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+@media (any-hover: hover) {
+  .rs-partners .swiper-button-next:hover,
+  .rs-partners .swiper-button-prev:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+}
+.rs-partners .swiper-button-prev,
+.rs-partners .swiper-rtl .swiper-button-next {
+  left: 0px;
+  right: auto;
+}
+.rs-partners .swiper-button-next,
+.rs-partners .swiper-rtl .swiper-button-prev {
+  right: 0px;
+  left: auto;
+}

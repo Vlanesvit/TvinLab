@@ -1,0 +1,31 @@
+.rs-parallax {
+  z-index: -1;
+  position: relative;
+  margin-top: -17rem;
+  margin-bottom: -38rem;
+  height: 95rem;
+}
+@media (max-width: 991.98px) {
+  .rs-parallax {
+    height: 50rem;
+    margin: -20rem 0;
+  }
+}
+.rs-parallax__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.rs-parallax__bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  will-change: transform;
+}

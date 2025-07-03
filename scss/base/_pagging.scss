@@ -1,0 +1,90 @@
+.pagging {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6.4rem;
+
+	// .pagging__arrow
+	&__arrow {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #d4dbe8;
+		border-radius: 0.3rem;
+		padding: 1rem;
+		transition: all 0.3s ease 0s;
+
+		&.disabled {
+			opacity: 0.5;
+			pointer-events: none;
+		}
+
+		svg {
+			width: 2.4rem;
+			height: 2.4rem;
+
+			*[fill] {
+				fill: currentColor;
+			}
+			*[stroke] {
+				stroke: currentColor;
+			}
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				color: #fff;
+				background-color: var(--primary-color);
+				border-color: var(--primary-color);
+			}
+		}
+	}
+
+	// .pagging__list
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1.6rem;
+
+		@media (max-width: 991.98px) {
+			gap: 0;
+		}
+	}
+
+	// .pagging__item
+	&__item,
+	&__more {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0.3rem;
+		width: 4.6rem;
+		height: 4.6rem;
+		font-weight: 400;
+		font-size: 1.6rem;
+		// line-height: 3rem;
+		line-height: 187%;
+		text-align: center;
+		background-color: transparent;
+		transition: all 0.3s ease 0s;
+
+		@media (max-width: 991.98px) {
+			width: 3rem;
+			height: 3rem;
+			font-size: 1.4rem;
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: var(--primary-color);
+				color: #fff;
+			}
+		}
+
+		&._active {
+			background-color: var(--primary-color);
+			color: #fff;
+		}
+	}
+}
