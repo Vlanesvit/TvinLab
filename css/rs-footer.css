@@ -71,7 +71,7 @@
 }
 @media (any-hover: hover) {
   .rs-footer__menu .menu__list li:hover a {
-    background-color: #271b80;
+    background-color: var(--second-color);
     color: #fff;
   }
 }

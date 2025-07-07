@@ -67,7 +67,7 @@
 					@media (any-hover: hover) {
 						&:hover {
 							a {
-								background-color: #271b80;
+								background-color: var(--second-color);
 								color: #fff;
 							}
 						}

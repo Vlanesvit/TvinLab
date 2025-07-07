@@ -405,9 +405,9 @@
 }
 @media (any-hover: hover) {
   .rs-header__menu .menu__action ul li a:hover {
-    background-color: #271b80;
-    border-color: #271b80;
-    color: #fff;
+    background-color: #F1E5F6;
+    border-color: #F1E5F6;
+    color: #271b80;
   }
 }
 .rs-header__menu .menu__btn {
